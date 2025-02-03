@@ -1,0 +1,278 @@
+* {
+    user-select: none;
+    font-family: 'Garet';
+    font-weight: bold;
+    border:none;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none; } /* Impede a seleção de texto em toda a página */
+
+@font-face {
+    font-family: 'Garet';
+    src: url('../fonts/Garet-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background.png');
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */
+    margin: 0;  /* Remove qualquer margem padrão do body */
+    overflow: hidden; /* Centraliza e evita barras de rolagem */
+    }  
+
+    .retangulo {
+        width: 98%;
+        height: 80%;
+        top:16.5%;
+        position: absolute;
+        background-color: #f8f8ff;
+        border: none; 
+        border-radius: 2em;
+    }
+
+    .retangulo2{
+        width: 95%;
+        height: 70%;
+        top:25%;
+        position: absolute;
+        background-color: #d9d9d9;
+        border: none; 
+        border-radius: 2em; 
+    }
+
+    #voltar{
+        background-color: #666666;
+        border-radius:2em;
+        width: 13.5%;
+        height: 5%;
+        position: absolute;
+        top: 18%;
+        left: 3%;
+    }
+
+    #voltar:hover{
+        background-color: #464343;
+    }
+
+    #adicionar{
+        background-color: #12a8de;
+        border-radius:2em;
+        width: 16.5%;
+        height: 5%;
+        position: absolute;
+        top: 18%;
+        left: 48%
+    }
+
+    #adicionar:hover{
+        background-color: #0a7ca5;
+    }
+
+    #alterar{
+        background-color: #fabc00;
+        border-radius:2em;
+        width: 15%;
+        height: 5%;
+        position: absolute;
+        top: 18%;
+        left: 66%
+    }
+
+    #alterar:hover{
+        background-color: #c4950b;
+    }
+
+    #desativar, #filtro{
+        border:none;
+        background-color: #940043;
+        border-radius:2em;
+        width: 15%;
+        height: 5%;
+        position: absolute;
+        top: 18%;
+        left: 82.5%
+    }
+
+    #desativar:hover{
+        background-color: #680c35;
+    }
+
+    h1{
+        margin:0;
+        font-size: 4.3vw;
+        letter-spacing: 1.5px;
+        top:3%;
+        left:13%;
+        position:absolute;
+        color:#f8f8ff;
+        text-shadow: 0.4vw 0.4vw 0.15vw rgba(0, 0, 0, 0.5);
+    }
+
+    #h1_rb{
+        left:13.8%;
+    }
+
+    .simbolo_quadrado{
+        background-color: #f8f8ff;
+        width: 19.5%;
+        height: 10%;
+        position: absolute;
+        top: 0%;
+        right:3.5%
+    }
+
+    .simbolo_triangulo{
+        width: 0;
+        height: 0;
+        border-left: 9.99vw solid transparent; 
+        border-right: 9.8vw solid transparent; 
+        border-top: 4vh solid #f8f8ff;  /* Cor do triângulo e altura fina */
+        position: absolute;
+        top: 10%;
+        right: 3.4%;
+    }
+
+    #logo-teiu{
+        height: 5.5vw;
+        top:2%;
+        right:9%;
+        position: absolute;
+    }
+
+    #texto_adicionar{
+        color: #f8f8ff;
+        position: absolute;
+        font-size: 2.7vh;
+        top: 15.9%;
+        left: 50%;
+        pointer-events: none;
+    }
+
+    #texto_alterar{
+        color: #f8f8ff;
+        position: absolute;
+        font-size: 2.7vh;
+        top: 15.9%;
+        left: 68.2%;
+        pointer-events: none;
+    }
+
+    #texto_desativar{
+        color: #f8f8ff;
+        position: absolute;
+        font-size: 2.7vh;
+        top: 15.9%;
+        left: 84%;
+        pointer-events: none;
+    }
+
+    #texto_voltar{
+        z-index: 5;
+        color: #f8f8ff;
+        position: absolute;
+        font-size: 2.7vh;
+        top: 15.9%;
+        left: 5%;
+        pointer-events: none;
+    }
+
+    #logo_mc{
+        height: 7vw;
+        top:2.5%;
+        left:3.8%;
+        position: absolute;
+    }
+
+    #icone_voltar{
+        height: 2.7vw;
+        top:18.4%;
+        left:12.5%;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #icone_adicionar{
+        height: 1.9vw;
+        top:19%;
+        left:61%;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #icone_alterar{
+        height: 1.8vw;
+        top:19%;
+        left:77.3%;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    #icone_desativar{
+        height: 1.9vw;
+        top:19%;
+        left:94.4%;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    input{
+        border: 1px solid rgb(180, 180, 180);
+        outline: none;
+        font-size: 1.3em;
+        background-color: #eeeeee;
+        border-radius:2em;
+        width: 53%;
+        height: 5%;
+        position: absolute;
+        top: 18%;
+        left:20%;
+        padding-left: 1.5%;
+        padding-right: 5.5%;
+    }
+
+    #icone_lupa{
+        border:none;
+        background-color: transparent;
+        height: 4%;
+        position: absolute;
+        top: 18.7%;
+        right:21.6%;
+    }
+
+    #filtro{
+        width: 13%;
+        left:84.4%;
+        background-color: #66a8ac;
+    }
+
+    #filtro:hover{
+        filter:brightness(70%)
+    }
+
+    #icone-filtro{
+        border:none;
+        background-color: transparent;
+        height: 3%;
+        position: absolute;
+        top: 19.2%;
+        right:3.5%;
+    }
+
+    #texto_filtro{
+        color: #f8f8ff;
+        position: absolute;
+        font-size: 2.7vh;
+        top: 15.9%;
+        left: 86%;
+        pointer-events: none;
+    }
+
+    #icone-usuario{
+        height: 1%;
+    }

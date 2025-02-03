@@ -1,0 +1,40 @@
+<!DOCTYPE html>  <!-- Normas do HTML -->
+<html lang="pt-br">  <!--Idioma Português do Brasil-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Registros de Baixas</title>  <!-- Título da página -->
+    <link rel="icon" href="../assets/logo-site.png">  <!-- Ícone da página -->
+    <script src="script-planilhas.js"></script> 
+    <link rel="stylesheet" href="style-planilhas.css">  <!-- Estilização -->
+</head>
+<body>
+
+    <h1 id="h1_rb">REGISTRO DE BAIXAS</h1>
+    <div class="retangulo"></div>
+    <div class="retangulo2"></div>
+
+    <div class="simbolo_quadrado"></div>
+    <div class="simbolo_triangulo"></div>
+    <img src="../assets/logo-teiu.png" id="logo-teiu">
+    <img src="../assets/icons/mao-dinheiro.png" id="logo_mc">
+
+    <div class="voltar">
+        <button id="voltar" onclick="voltar()"></button>
+        <p id="texto_voltar">VOLTAR</p>
+        <img src="../assets/icons/icone-voltar.png" id="icone_voltar"> </div>
+    
+    <div class="pesquisa">
+        <input name="pesquisa" id="pesquisa" type = "text" required placeholder="" autofocus></input>
+        <img src="../assets/icons/icone-lupa.png" id="icone_lupa" onclick="alert('PESQUISAR')"> </div>
+    </div>
+
+    <div class="filtro">
+        <button id="filtro" onclick="filtrar()"></button>
+        <p id="texto_filtro">FILTRAR</p>
+        <img src="../assets/icons/icone-filtro.png" id="icone-filtro"> </div>
+    </div>
+
+
+</body>
+</html>
