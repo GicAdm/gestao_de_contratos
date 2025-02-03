@@ -1,0 +1,280 @@
+* {
+    user-select: none; /*Impede a seleção de texto em toda a página */
+    font-family: 'Garet', sans-serif;
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;
+}  
+
+@font-face {
+    font-family: 'Garet';
+    src: url('../fonts/Garet-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url('../assets/background.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */
+    overflow: hidden; /* Centraliza e evita barras de rolagem */
+}
+
+p{
+    top:2.85%;
+    right: 6.8%;
+    position: absolute;
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Garet', sans-serif;
+    display: inline-block;
+    font-size: 1em;
+    color: #f8f8ff;
+    position: absolute;
+}
+
+button{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#selecionar_mc, #selecionar_mc_2{
+    width: 21%;
+    height: 6%;
+    left: 8.7%;
+    bottom: 7%;
+    z-index: 10;
+
+    background-color: #2161a3;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 24px;
+    color: #f8f8ff;
+    outline:none;
+    border: none;
+    padding: none; 
+    position: absolute;
+    border-radius: 2em;
+}
+
+#selecionar_mc_2{
+    background-color:#3845b6;
+}
+
+#selecionar_mc_2:hover{
+    background-color: #1d2886;
+}
+
+#selecionar_mc:hover{
+    background-color:#12508f;
+}
+
+#selecionar_rb{
+    width: 21%;
+    height: 6%;
+    left: 37.8%;
+    bottom: 7%;
+    z-index: 10;
+
+    background-color: #3845b6;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Garet', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 24px;
+    color: #f8f8ff;
+    outline:none;
+    border: none;
+    padding: none; 
+    position: absolute;
+    border-radius: 2em;
+}
+
+#selecionar_rb:hover{
+    background-color:#1d2886;
+}
+
+#selecionar_rb_transparente{
+    position: absolute;
+    bottom: 10%;
+    left: 34.2%;
+    height: 60%;
+    width: 28%;
+    background-color:#f8f8ff;
+    outline: none;
+    padding: none;
+    border:none;
+    border-radius: 2em;
+}
+
+#selecionar_mc_transparente, #selecionar_mc_transparente_2{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    height: 60%;
+    width: 28.1%;
+    background-color:#f8f8ff;
+    outline: none;
+    padding: none;
+    border: none;
+    border-radius: 2em;
+}
+
+#selecionar_mc_icone, #selecionar_mc_icone_2{
+    background-color:#1086c4;
+    outline: none;
+    padding: none;
+    border: none;
+    height: 14%;
+    width: 9%;
+    border-radius: 50%;
+    position:absolute;
+    bottom: 63%;
+    left: 15%;
+}
+
+#selecionar_mc_icone_2{
+    background-color: #3845b6;
+}
+
+#selecionar_mc_icone_2:hover{
+    background-color:#1d2886;
+}
+
+#selecionar_mc_icone:hover{
+    background-color: #12508f;
+}
+
+#selecionar_rb_icone{
+    background-color:#3845b6;
+    outline: none;
+    padding: none;
+    border: none;
+    height: 14%;
+    width: 9%;
+    border-radius: 50%;
+    position:absolute;
+    bottom: 63%;
+    left: 44%;
+}
+
+#selecionar_rb_icone:hover{
+    background-color: #1d2886;
+}
+
+
+#sair{
+    background-color:#940043;
+    border-radius: 2em;
+    outline: none;
+    padding: none;
+    border: none;
+    height: 5%;
+    width: 10%;
+    position:absolute;
+    top:5%;
+    left: 2%;
+}
+
+#sair:hover{
+    background-color:#740135;
+}
+
+#sair_icone{
+    top: 6.2%;
+    left: 8.9%;
+    position: absolute;
+    outline: none;
+    padding: none;
+    border: none;
+    pointer-events: none;
+}
+
+label{
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #f8f8ff;
+    top:5.65%;
+    left: 3.75%;
+    position:absolute;
+    pointer-events: none;
+}
+
+.simbolo_quadrado{
+    background-color: #f8f8ff;
+    width: 19.5%;
+    height: 10%;
+    position: absolute;
+    top: 0%;
+    right:22%
+}
+
+.simbolo_triangulo{
+    width: 0;
+    height: 0;
+    border-left: 9.99vw solid transparent; 
+    border-right: 9.8vw solid transparent; 
+    border-top: 4vh solid #f8f8ff;  /* Cor do triângulo e altura fina */
+    position: absolute;
+    top: 10%;
+    right:22%
+}
+
+#logo-teiu{
+    height: 5.5vw;
+    top:2%;
+    right:27.4%;
+    position: absolute;
+}
+
+h1{
+    margin:0;
+    font-size: 3.8vw;
+    letter-spacing: 1.5px;
+    top:3%;
+    left:15.1%;
+    position:absolute;
+    color:#f8f8ff;
+    text-shadow: 0.4vw 0.4vw 0.15vw rgba(0, 0, 0, 0.5);
+}
+
+#icone-usuario{
+    position:absolute;
+    top:3%;
+    right:2.5%;
+    height:5%;
+}
+
+#texto_rb, #texto_rb2{
+    height: 35%;
+    position: absolute;
+    top:28.7%;
+    left:37%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+#texto_rb2{
+    left:8%;
+}
+
+#texto_mc{
+    height: 35%;
+    position: absolute;
+    top:28%;
+    left:8%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+li{
+    color:black;
+}

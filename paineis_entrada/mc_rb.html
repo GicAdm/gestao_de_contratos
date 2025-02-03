@@ -1,0 +1,43 @@
+<!DOCTYPE html>  <!-- Normas do HTML -->
+<html lang="pt-br">  <!--Idioma Português do Brasil-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Painel de Entrada</title>  <!-- Título da página -->
+    <link rel="icon" href="../assets/logo-site.png">  <!-- Ícone da página -->
+    <link rel="stylesheet" href="style-paineis.css">  <!-- Estilização -->
+</head>
+
+<body class="mc_rb">
+
+    <div class="simbolo_quadrado"></div>
+    <div class="simbolo_triangulo"></div>
+    <img src="../assets/logo-teiu.png" id="logo-teiu">
+    <img src="../assets/paineis-entrada/icone-usuario.png" id="icone-usuario">
+
+    <p id="nome_usuario"></p>
+
+    <h1>PAINEL DE ENTRADA</h1>
+
+    <button type= "button" id= "selecionar_mc" onclick="window.location.href = '../planilhas/index_mc.html'">SELECIONAR</button>
+    <button type= "button" id= "selecionar_mc_transparente" onclick="window.location.href = '../planilhas/index_mc.html'"></button>
+    <button type= "button" id= "selecionar_mc_icone" onclick="window.location.href = '../planilhas/index_mc.html'"><img src="../assets/icons/aperto-de-mao.png" style="height: 93px; width: 90px;">
+    </button>
+
+    <img src="../assets/paineis-entrada/texto_mc.png" id="texto_mc">
+    
+
+    <button type= "button" id= "selecionar_rb" onclick="window.location.href = '../planilhas/index_rb.html'">SELECIONAR</button>
+    <button type= "button" id= "selecionar_rb_transparente" onclick="window.location.href = '../planilhas/index_rb.html'"></button>
+    <button type= "button" id= "selecionar_rb_icone" onclick="window.location.href = '../planilhas/index_rb.html'"><img src="../assets/icons/mao-dinheiro.png" style="height: 90px; width: 90px;"></button>
+
+    <img src="../assets/paineis-entrada/texto_rb.png" id="texto_rb">
+
+    <button type= "button" id= "sair" onclick="sair()"></button>
+    <label>SAIR</label>
+    <img src="../assets/icons/desligar.png" id="sair_icone" style="height: 25px; width: 25px;">
+
+</body>
+<script src="script-paineis.js"></script>
+</html>
+
