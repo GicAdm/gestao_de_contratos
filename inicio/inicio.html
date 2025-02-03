@@ -1,0 +1,46 @@
+<!DOCTYPE html>  <!-- Normas do HTML -->
+<html lang="pt-br">  <!--Idioma Português do Brasil-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Gestão de Contratos - TEIÚ</title>  <!-- Título da página -->
+    <link rel="icon" href="../assets/logo-site.png">  <!-- Ícone da página -->
+    <link rel="stylesheet" href="style.css">  <!-- Estilização da página -->
+    <script src="script.js"></script>  <!-- Roteiro da página -->
+
+</head>
+<body>
+    <div id="video"> <!-- Exibe o vídeo de carregamento -->
+        <video autoplay muted>
+            <source src="../assets/video-inicio.mp4" type="video/mp4">
+          </video>
+    </div>
+
+
+    <div class="login_div">  
+    <img src="../assets/faca-login.png"id="faca-login">
+
+    <img src="../assets/logo-site.png" id="logo">
+    <img src="../assets/titulo-gestao.png" id="titulo">
+    <img src="../assets/lgpd.png" id="lgpd">
+
+
+    <p id="texto_usuario">Usuário:</p>
+    <input name="usuario" id="usuario" type = "text" required placeholder="" autofocus></input>
+
+    <p id="texto_senha">Senha:</p>
+    <input name="senha" id="senha" type = "password" required placeholder=""></input>
+    <button type= "button" id= "botao_proximo" onclick="login(document.getElementById('usuario').value, document.getElementById('senha').value)">PRÓXIMO</button>
+
+    <p id="linha1">_____________________</p>
+    <p id="linha2">_____________________</p>
+    
+    <img src="../assets/logo-teiu.png" id="logo-teiu">
+    </div>
+    <div class="retangulo"></div>
+</body>
+</html>
+
+
+
+

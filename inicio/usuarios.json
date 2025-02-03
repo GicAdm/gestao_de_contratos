@@ -1,0 +1,26 @@
+{
+    "usuarios": [
+        {
+            "usuario": "1",
+            "senha": "1",
+            "nome": "Gerente Administrativo",
+            "painel":"mc_rb.html",
+            "permissao": "tudo"
+        },
+        {
+            "usuario": "2",
+            "senha": "2",
+            "nome": "Financeiro",
+            "painel":"mc.html",
+            "permissao": "visualizar_mc"        
+        },
+
+        {
+            "usuario": "3",
+            "senha": "3",
+            "nome": "Comercial",
+            "painel":"rb.html",
+            "permissao": "visualizar_rb"
+        }
+    ]
+}

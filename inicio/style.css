@@ -1,0 +1,153 @@
+* {
+    user-select: none;
+    font-family: 'Garet';
+    -webkit-user-drag: none;
+    -webkit-user-drag: none;  } /* Impede a seleção de texto em toda a página */
+
+@font-face {
+    font-family: 'Garet';
+    src: url('../fonts/Garet-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+video{
+    position: absolute;  /* ou relative, dependendo da necessidade */
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background.png');
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */
+    margin: 0;  /* Remove qualquer margem padrão do body */
+    overflow: hidden; /* Centraliza e evita barras de rolagem */
+    }
+
+.retangulo{
+    width: 42%;
+    height: 76.6%;
+    top:13.4%;
+    left: 52.7%;
+    position: absolute;
+    background-color: white;
+    z-index: -5;
+}
+        
+#usuario{
+    border: 2px solid black;
+    padding:0.8%;
+    top: 34%;
+}
+
+#senha{
+    border: 2px solid black;
+    padding:0.8%;
+    top: 48.5%;
+}
+
+p{
+    left: 56.3%;
+    position: absolute;
+    font-size: 1.5em;
+    color: #6d6d6d;
+}
+
+
+#texto_usuario{
+    top: 27.3%;
+}
+
+#texto_senha{
+    top: 41.5%;
+}
+
+#faca-login{
+    width:28%;
+    top:-0.5%;
+    left:56%;
+    position:absolute;
+}
+
+#lgpd{
+    width:32%;
+    top:58%;
+    left:57.5%;
+    position:absolute;
+}
+
+input{
+    width:33.5%;
+    font-size: 1.6em;
+    right: 8.5%;
+    position: absolute;
+    background-color: transparent;
+    outline:none;
+    border: none;
+    padding: none; 
+    }
+
+    button{
+        width: 35.5%;
+        height: 7%;
+        right: 8.5%;
+        background-color: #2161a3;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Garet', sans-serif;
+        letter-spacing: 2px;
+        display: inline-block;
+        font-size: 1.5em;
+        color: #f8f8ff;
+        outline:none;
+        border: none;
+        padding: none; 
+        top:60%;
+        position: absolute;
+    }
+    
+    button:hover{
+        background-color:#12508f;
+    }
+
+    #linha1{
+        bottom:22%;
+    }
+
+    #linha2{
+        left:78.2%;
+        bottom:22%;
+        position:absolute;
+    }
+
+    #logo{
+        height: 60%;
+        position:absolute;
+        top:11%;
+        left:7%;
+    }
+
+    #titulo{
+        top:52.8%;
+        left:10%;
+        position:absolute;
+    }
+
+    #logo-teiu{
+        height: 7%;
+        bottom:22.5%;
+        right:23%;
+        position:absolute;
+    }
